@@ -21,5 +21,9 @@
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/pmatzavin/restServerMock/issues"
+  },
+  "dependencies": {
+    "should": "*",
+    "express": "*"
   }
 }
