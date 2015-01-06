@@ -1,0 +1,25 @@
+{
+  "name": "restServerMock",
+  "version": "0.0.0",
+  "description": "A simple server. It serves mock JSON responses to the incoming HTTP requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmatzavin/restServerMock.git"
+  },
+  "keywords": [
+    "nodejs",
+    "rest",
+    "server",
+    "HTTP",
+    "JSON"
+  ],
+  "author": "Panos Matzavinos",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/pmatzavin/restServerMock/issues"
+  }
+}
