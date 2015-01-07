@@ -3,6 +3,9 @@
   A Simple REST HTTP server that serves the configured JSON responses
   [rest-server-mock](https://github.com/pmatzavin/restServerMock.git)
 
+  Currently it servers JSON responses with status code 200.
+  Future versions will support more options including : status codes, headers, encodings, etc.
+
 ## About
 
   The motivation for implementing this module was to provide a quick and simple server to be used
