@@ -11,11 +11,11 @@
     "url": "https://github.com/pmatzavin/restServerMock.git"
   },
   "keywords": [
-    "nodejs",
     "rest",
     "server",
     "HTTP",
-    "JSON"
+    "JSON",
+    "mock"
   ],
   "author": "Panos Matzavinos",
   "license": "BSD",
@@ -23,7 +23,12 @@
     "url": "https://github.com/pmatzavin/restServerMock/issues"
   },
   "dependencies": {
+    "express": "*",
+    "bluebird": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
     "should": "*",
-    "express": "*"
+    "supertest": "*"
   }
 }
