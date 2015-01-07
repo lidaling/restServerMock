@@ -77,7 +77,7 @@ npm install rest-server-mock
 ### As a commandline tool
 
 ```
-node rest-server-mock path_to_configuration_file
+rest-server-mock path_to_configuration_file
 ```
 
 ### As a module
