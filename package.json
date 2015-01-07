@@ -1,6 +1,6 @@
 {
   "name": "rest-server-mock",
-  "version": "0.0.0",
+  "version": "0.9.0",
   "description": "A simple server. It serves mock JSON responses to the incoming HTTP requests.",
   "main": "index.js",
   "scripts": {
