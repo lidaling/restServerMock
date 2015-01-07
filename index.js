@@ -41,7 +41,7 @@ function start(serverConfFile) {
 
 function startAsCmd() {
 
-    if (process.argv.length !== 3) console.log('usage: node index.js path_to_config_file')
+    if (process.argv.length !== 3) console.log('usage: node rest-server-mock path_to_config_file')
 
     else start(process.argv[2])
         .then(function (server) {
