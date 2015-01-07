@@ -2,7 +2,7 @@
   "name": "rest-server-mock",
   "version": "0.9.0",
   "description": "A simple server. It serves mock JSON responses to the incoming HTTP requests.",
-  "main": "index.js",
+  "main": "index",
   "scripts": {
     "test": "mocha -R spec tests/*.js"
   },
@@ -31,5 +31,8 @@
     "mocha": "*",
     "should": "*",
     "supertest": "*"
+  },
+  "bin": {
+    "rest-server-mock" : "index.js"
   }
 }

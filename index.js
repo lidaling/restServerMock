@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var Promise = require('bluebird')
     , express = require('express')
     , fs = require('fs')
