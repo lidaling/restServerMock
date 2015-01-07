@@ -18,7 +18,7 @@ npm install rest-server-mock
 
 ## Configuration
 
-  The server's port and the server routes are configured in a JSON file:
+  The server's port and routes are configured in a JSON file:
 
   Example file:
   ```
