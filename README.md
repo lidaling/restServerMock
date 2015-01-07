@@ -85,3 +85,8 @@ restServerMock(path_to_configuration_file)       // Start the server. Returns a 
 // Note that the restServerMock method returns a promise.
 ```
 
+## Running the tests
+
+```
+npm test
+```
