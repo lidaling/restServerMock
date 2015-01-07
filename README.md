@@ -10,6 +10,12 @@
   I wanted to have an HTTP server responding with some mock JSON responses,
   without relying on a more complex mocking framework.
 
+## Installation
+
+```
+npm install rest-server-mock
+```
+
 ## Configuration
 
   The server's port and the server routes are configured in a JSON file:
