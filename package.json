@@ -19,7 +19,7 @@
     "mock"
   ],
   "author": "Panos Matzavinos",
-  "license": "BSD",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pmatzavin/restServerMock/issues"
   },
