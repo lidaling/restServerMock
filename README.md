@@ -1,6 +1,7 @@
 # RestServerMock
 
-  A Simple REST HTTP server that serves the configured JSON responses.
+  A Simple REST HTTP server that serves the configured JSON responses
+  [rest-server-mock](https://github.com/pmatzavin/restServerMock.git)
 
 ## About
 
