@@ -46,6 +46,7 @@ function startAsCmd() {
     else start(process.argv[2])
         .then(function (server) {
                 console.log('RestServerMock is listening on port: ', server.address().port, ' ...')
+                console.log('Configuration file: ', process.argv[2])
             }
             , function (err) {
                 console.log(err)
