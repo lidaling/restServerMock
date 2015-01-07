@@ -3,10 +3,11 @@ var Promise = require('bluebird')
     , fs = require('fs')
 
     , routesSetup = require('./lib/routes_setup')
-
     , FILE_ENCODING = require('./constants/contstants').FILE_ENCODING
 
-module.exports = start
+if (require.main === module) startAsCmd()
+
+else module.exports = start
 
 function start(serverConfFile) {
 
@@ -35,6 +36,20 @@ function start(serverConfFile) {
         }
 
     })
+
+}
+
+function startAsCmd() {
+
+    if (process.argv.length !== 3) console.log('usage: node index.js path_to_config_file')
+
+    else start(process.argv[2])
+        .then(function (server) {
+                console.log('RestServerMock is listening on port: ', server.address().port, ' ...')
+            }
+            , function (err) {
+                console.log(err)
+            })
 
 }
 
