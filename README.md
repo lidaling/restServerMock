@@ -79,8 +79,10 @@ node rest-server-mock path_to_configuration_file
 ### As a module
 
 ```
-var restServerMock = require('rest-server-mock')            // Include the module.
-restServerMock('path_to_configuration_file/filename.json')  // Start the server. Returns a promise.
+// Include the module.
+var restServerMock = require('rest-server-mock')
+// Start the server. Returns a promise.
+restServerMock('path_to_configuration_file/filename.json')
 .then(function (server) {
     console.log('RestServerMock is listening on port: ', server.address().port, ' ...')
     console.log('Configuration file: ', process.argv[2])
